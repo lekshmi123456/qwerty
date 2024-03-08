@@ -1,0 +1,456 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(bc.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8;
+    padding-right: 8;
+    box-sizing: content-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+.row {
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.card1 {
+    background-image: url(anklet1.jpg)
+}
+
+.card2 {
+    background-image: url(white.jpg)
+}
+
+.card3 {
+    background-image: url(yellow.jpg)
+}
+
+.card4 {
+    background-image: url(im3.jpg)
+}
+
+.card5 {
+    background-image: url(cl5.jpeg)
+}
+
+.card6 {
+    background-image: url(cl6.jpeg)
+}
+
+.card7 {
+    background-image: url(3.jpeg);
+}
+
+.card8 {
+    background-image: url(1.webp)
+}
+
+.card9 {
+    background-image: url(4.jpeg)
+}
+
+.card10 {
+    background-image: url(5.jpeg)
+}
+
+.card11 {
+    background-image: url(6.jpeg)
+}
+
+.card12 {
+    background-image: url(7.jpeg)
+}
+
+.card13 {
+    background-image: url(8.jpeg)
+}
+
+.card14 {
+    background-image: url(9.jpeg)
+}
+
+.card15 {
+    background-image: url(10.jpeg)
+}
+
+.card16 {
+    background-image: url(su.jpg);
+}
+
+.card17 {
+    background-image: url(12.jpeg)
+}
+
+.card18 {
+    background-image: url(13.jpeg)
+}
+
+.card19 {
+    background-image: url(14.jpeg)
+}
+
+.card20 {
+    background-image: url(15.jpeg)
+}
+
+.card21 {
+    background-image: url(16.jpeg)
+}
+
+.card22 {
+    background-image: url(17.jpeg)
+}
+
+.card23 {
+    background-image: url(18.jpeg)
+}
+
+.card24 {
+    background-image: url(2.jpg)
+}
+
+.card25 {
+    background-image: url(19.jpeg)
+}
+
+.card26 {
+    background-image: url(20.jpeg)
+}
+
+.card27 {
+    background-image: url(27.jpeg)
+}
+
+.card28 {
+    background-image: url(28.jpeg)
+}
+
+.card29 {
+    background-image: url(29.jpeg)
+}
+
+.card30 {
+    background-image: url(30.jpeg)
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+.card h4 a{
+    text-align: end;
+    color: #fff;
+    text-decoration: none;
+}
+.f2,
+.f3 {
+    float: center;
+}
+
+.esther .col {
+    margin: 0;
+    background-color: #daa520;
+}
+
+h2.collect {
+    color: #ffffff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Sacramento', cursive;
+}
+
+.co {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.ro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.foot {
+    list-style: none;
+}
+
+.footer {
+    background-color: #737000;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 35px;
+    font-weight: 300;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin: 0 20px 20px 0;
+    text-align: center;
+    line-height: 40px;
+    padding: 0;
+}
+
+h3 {
+    color: #737000;
+    font-size: 18px;
+}
+
+.about {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #d2b55b;
+}
+
+.ab {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section {
+    float: left;
+    width: 55%;
+}
+
+.image-section {
+    float: right;
+    width: 40%;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.content-section .content-title {
+    font-size: 28px;
+    color: #ffffff
+}
+
+.content-section .content h2 {
+    margin-top: 20px;
+    font-size: 21px;
+}
+
+.content-section .content p {
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.content-section .content .fire {
+    margin-top: 30px;
+}
+
+.content-section .content .fire a {
+    background-color: #d2b55b;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffe0;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+
+.content-section .content .fire a:hover {
+    background-color: #eee8aa;
+    color: #978942;
+}
+
+.content-section .media {
+    margin-top: 40px 40px;
+}
+
+.content-section .media img {
+    padding: 9px 20px;
+}
+
+.cr {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.cr::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url(tanishq.jpeg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+.cx {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.lt {
+    height: 100%;
+    background: url(tanishq.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.rt {
+    padding: 25px 40px;
+}
+
+.rt h2 {
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: #edc001;
+}
+
+.fd {
+    width: 100%;
+    padding: 0 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    transition: -3s;
+}
+
+.fd:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.fd:focus {
+    background-color: #fff;
+    border: 2px solid #737000;
+}
+
+.area {
+    min-height: 150px;
+}
+
+.bn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #978942;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #ffff;
+    transition: 0.3s;
+}
+
+.bn:hover {
+    background-color: #737000;
+}

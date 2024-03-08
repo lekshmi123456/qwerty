@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Shop</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Sacramento&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="buy.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <form action="save.php">
+      <h1>Buy Now</h1>
+      <div class="input-box">
+        <input type="text" placeholder="Cardholder" id="e" name="e" required>
+        <box-icon type='solid' name='user'></box-icon>
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Cardnumber" id="g" name="g" required>
+        <box-icon type='solid' name='lock-alt'></box-icon>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="CVC" id="g" name="g" required>
+        <box-icon type='solid' name='lock-alt'></box-icon>
+      </div>
+      <button class="btn" type="submit">Pay</button>
+    </form>
+  </div>
+</body>
+

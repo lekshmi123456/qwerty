@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Login form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Sacramento&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="login.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <form action="save.php">
+      <h1>Login</h1>
+      <div class="input-box">
+        <input type="text" placeholder="Username" id="e" name="e" required>
+        <box-icon type='solid' name='user'></box-icon>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Password" id="g" name="g" required>
+        <box-icon type='solid' name='lock-alt'></box-icon>
+      </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox" id="f" name="f">Remember me</label>
+        <label><a href="file:///C:/Users/leksh/OneDrive/Desktop/project/forget.html">Forgot password?</a></label>
+      </div>
+      <button class="btn" type="submit" onclick="alert('Logged in!')">Login</button>
+      <div class="register-link">
+        <p>Don't have an account?<a href="file:///C:/Users/leksh/OneDrive/Desktop/project/register.html">Register</a>
+        </p>
+      </div>
+    </form>
+  </div>
+</body>
